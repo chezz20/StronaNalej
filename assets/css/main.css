@@ -1,0 +1,254 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+section.home {
+    /* background-color: #FBDB00; */
+    background-color: #fdd0ce;
+    padding-top: 60px;
+    height: 100vh;
+    position: relative;
+}
+
+section.home .container {
+    position: relative;
+    z-index: 1;
+}
+
+section.home .baner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    z-index: 0;
+}
+
+section.home .logo {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+}
+
+p.tytulglowny{
+    color: #322929;
+    font-weight: 600;
+    font-size: 36px;
+    text-shadow: 4px 8px 20px black;
+    text-transform: uppercase;
+}
+
+section.home .baner-center {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: calc(50% - 450px);
+    padding-right: calc(50% - 450px);
+}
+
+section.home .baner-center h1 {
+    margin: 0;
+    font-size: 6.4rem;
+    font-weight: 600;
+    color: #010101;
+}
+
+section.home .baner-center p {
+    font-size: 2.6rem;
+    line-height: 3.2rem;
+    color: #313841;
+    margin: 15px 0 25px;
+}
+
+section.home .baner-center .app-store li {
+    padding: 0 17px;
+}
+
+section.home .baner-center .app-store a {
+    font-size: 3.5rem;
+    color: #010101;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #010101;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+}
+
+section.home .paginacja {
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    height: 15px;
+}
+
+section.home .paginacja li {
+    width: 15px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, .5);
+    margin: 0 3.5px;
+    border-radius: 50%;
+}
+
+section.home .paginacja li.active {
+    background-color: #fff;
+}
+
+header {
+    text-align: center;
+}
+
+header .social a,
+header button.menu {
+    font-size: 3rem;
+    color: #010101;
+}
+
+header button.menu {
+    padding: 0;
+    line-height: 1;
+    background: none;
+}
+
+header button.menu.active.focus,
+header button.menu.active:focus,
+header button.menu.focus,
+header button.menu:active.focus,
+header button.menu:active:focus,
+header button.menu:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+header .social li {
+    padding: 0 15px;
+}
+
+section.features {
+    padding: 120px 0 100px;
+}
+
+section.features h2,
+footer h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 4.2rem;
+    font-weight: 600;
+    color: #010101;
+    margin-bottom: 10px;
+}
+
+section.features p.t-lead,
+footer p.t-lead {
+    color: #313841;
+    font-size: 2.6rem;
+    line-height: 3.2rem;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+section.features .box {
+    padding-top: 60px;
+    color: #898989;
+    font-size: 2.1rem;
+}
+
+section.features .box h3 {
+    margin: 0 0 10px;
+    color: #010101;
+    font-size: 2.9rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+}
+
+section.features .box-image {
+    text-align: center;
+}
+
+section.features .box-image img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #020201;
+    padding: 90px 0 210px;
+}
+
+footer h2 {
+    color: #fdd0ce;
+}
+
+footer p.t-lead {
+    color: #898989;
+    margin-bottom: 50px;
+}
+
+footer form.enter-email {
+    margin-bottom: 115px;
+}
+
+footer form.enter-email input[type="email"] {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    height: 50px;
+    padding: 0 23px;
+    border-radius: 10px;
+}
+
+footer form.enter-email button {
+    height: 50px;
+    padding: 0 35px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: #fdd0ce;
+    border: none;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+footer form.enter-email div[class^="col-"] {
+    padding: 0;
+}
+
+footer .footer-box {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+footer .footer-box a {
+    color: #fff;
+}
+
+footer .footer-box a:hover {
+    text-decoration: none;
+    color: #fdd0ce;
+}
+
+nav{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: #000;
+    z-index: 2;
+    color: #fff;
+    padding: 0 20px;
+    left: -300px;
+}
+
+nav button.zamknij{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: none;
+    font-size: 22px;
+}
